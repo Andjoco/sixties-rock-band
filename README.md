@@ -2,19 +2,19 @@
 Assignment is to create a  website for a local 1960s covers band, who want to use it as a means to promote their musical ability so people will want to hire them for events. In addition, they want to use it as a link to their already existing social media outlets i.e. Facebook, Twitter and YouTube.
 
 ## Approach
-###1. Strategy
+### 1. Strategy
 A visual representation needs to be achieved; what the real-life user experience will be if you hire the band for a function, i.e. it's presented as a 'story'. 
 
-###2. Scope
+### 2. Scope
 Detailing the background of the band, their look and sound, and of course, their reputation.
 
-###3. Structure
+### 3. Structure
 No separate pages, just one scrolling page with a screen-sticking menu with links to specific sections on the page. This website is representing one 'product' i.e. the band and what they do, so the reader needs to experience the whole story, without having to change pages.
 
-###4. Skeleton
+### 4. Skeleton
 Intro about the band, live footage plus the ability to listen to them whilst still browsing. Images, repertoire and links to social medi channels
 
-###5. Surface
+### 5. Surface
 A retro but 'cool' look. Strong colored images with handwritten fonts and links to other sections of the page plus social medi outlets
 
 ### Prerequisites
