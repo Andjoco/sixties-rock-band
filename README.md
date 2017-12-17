@@ -1,9 +1,9 @@
 # Sixties Rock band Website
 Assignment is to create a  website for a local 1960s covers band, who want to use it as a means to promote their musical ability so people will want to hire them for events. In addition, they want to use it as a link to their already existing social media outlets i.e. Facebook, Twitter and YouTube.
 
-## Getting Started
+## Approach
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Visual representation is a story. No separate pages, just one scrolling page with a screen-sticking menu with links to specific sections on the page. This website is representing one 'product' i.e. the band and what they do, so the reader needs to experience the whole story, without having to change pages.
 
 ### Prerequisites
 
