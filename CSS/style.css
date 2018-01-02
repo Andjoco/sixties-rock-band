@@ -1,5 +1,7 @@
 .body {
     position: fixed;
+    font-family: "Exo", sans-serif;
+    
 }
 
 
@@ -68,16 +70,17 @@
     position: absolute;
     left: 465px;
     right: 465px;
+    color: white;
 }
 
 .tag-line {
     font-size: 40px;
     text-align: right;
     letter-spacing: 2px;
-    top: 430px;
+    top: 400px;
     position: absolute;
-    left: 980px;
-    /*right: 465px;*/
+    left: 1000px;
+    color: white;
 }
 
 .summary {
@@ -86,8 +89,9 @@
     position: absolute;
     margin-right: 100px;
     top: 600px;
-    margin-left: 500px;
+    margin-left: 700px;
     width: auto;
+    color: white;
 }
 
 .guitarist-image {
