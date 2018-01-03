@@ -1,10 +1,7 @@
 .body {
     position: fixed;
     font-family: "Exo", sans-serif;
-    
 }
-
-
 
 /*---------------------------------------------Navigation*/
 .navigation {
@@ -18,52 +15,35 @@
     width: 1200px;
     text-align: left;
     position: fixed;
-    
-    
-    
 }
+
+/*--------------------------------------------- Navigation Links*/
+
+
 
 /*----------------------------------------------Horizontal Section Splitters*/
 
 .horizontal-break {
     border-top-style: inset;
     border-bottom-style: none;
-    color: black;
+    border-color: black;
     border-width: 5px;
-    
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 30px 0px 30px 0px;
 }
 
-.hb1 {
-    margin-top: 50px;
-}
 
-.hb2 {
-    
-}
 
-.hb3 {
-    
-}
-
-.hb4 {
-    
-}
-
-/*------------------------------------------*/
+/*--------------------------------------------------container*/
 
 #container {
     position: fixed;
     margin: auto;
 }   
     
-
-
 /*-------------------------------------------------Intro*/
 .band-name {
-    font-size: 70px;
-    top: 300px;
+    font-size: 90px;
+    top: 170px;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 6px;
@@ -77,21 +57,22 @@
     font-size: 40px;
     text-align: right;
     letter-spacing: 2px;
-    top: 400px;
+    top: 305px;
     position: absolute;
-    left: 1000px;
+    left: 1050px;
     color: white;
+    font-style: italic;
 }
 
 .summary {
     font-size: 20px;
-    text-align: right;
     position: absolute;
     margin-right: 100px;
-    top: 600px;
-    margin-left: 700px;
+    top: 480px;
+    margin-left: 950px;
     width: auto;
     color: white;
+    text-align: justify;
 }
 
 .guitarist-image {
@@ -105,12 +86,48 @@
     background-repeat: no-repeat;
     min-height: 1000px;
     min-width: 1000px;
-    
-    
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
-    
-    
-    
+}
+
+.btn {
+    background-color: red;
+    border-color: white;
+    border-width: 2px;
+    color: white;
+    text-transform: uppercase;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    padding: 3px;
+    position: relative;
+    left: 835.5px;
+    top: 890px;
+}
+
+/*-------------------------------Section headings and subheadings*/
+
+.heading {
+    font-size: 90px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+    position: relative;
+    width: 700px;
+    left: 570.5px;
+}
+
+.subheading {
+    font-size: 40px;
+    letter-spacing: 2px;
+    top: 325px;
+    /*position: absolute;*/
+    left: 1050px;
+    color: black;
+    font-style: italic;
+    text-align: center;
 }
