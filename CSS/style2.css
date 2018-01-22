@@ -51,7 +51,7 @@
 /*--------------------------------------------------container*/
 
 #container {
-    position: relative;
+    position: fixed;
     margin: auto;
 }   
     
@@ -150,26 +150,25 @@
 /*------------------------------Social media links*/
 
 .facebook {
+    /*min-height: 100px;
+    min-width: 100px;*/
     position: relative;
-    left: 360px;
+    left: 587px;
     top: 17px;
 }
     
 .twitter {
+    /*min-height: 100px;
+    min-width: 100px;*/
     position: relative;
-    left: 760px;
-    
-  
-    
-   
-    
-    
+    left: 1214px;
+    top: -25px;
 }
 
-/*iframe:focus { 
+/*#iframe:focus { 
     outline: none;
 }
 
-iframe[seamless] { 
+#iframe[seamless] { 
     display: block;
 }*/

@@ -1,61 +1,45 @@
-.body {
-    position: fixed;
-    font-family: "Exo", sans-serif;
-}
-
-/*---------------------------------------------Navigation*/
-.navigation {
-    font-family: "Exo", sans-serif;
-    font-weight: 100;
-    font-size: 30px;
-    top: 30px;
-    right: 50px;
-    color: #ffffff;
-    letter-spacing: 6px;
-    width: 1200px;
-    text-align: left;
-    position: fixed;
-}
-
-.logo {
-    background: url("../images/logo.jpg");
-    /z-index: 2;*/
-    width: 100px;
-    height: 100px;
-    
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /*min-height: 360px;*/
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-
-/*--------------------------------------------- Navigation Links*/
-
-
-
-/*----------------------------------------------Horizontal Section Splitters*/
-
-.horizontal-break {
-    border-top-style: inset;
-    border-bottom-style: none;
-    border-color: black;
-    border-width: 5px;
-    margin: 30px 0px 30px 0px;
-}
-
-
-
 /*--------------------------------------------------container*/
 
 #container {
     position: relative;
     margin: auto;
-}   
+} 
+
+/*-----------------------------------Menu*/
+
+#menuItemHeader {
+    height: 50px;
+    margin: 10px 0px 0px 0px;
     
-/*-------------------------------------------------Intro*/
+    background-color: beige;
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    top: 30px;
+    right: 20px;
+    letter-spacing: 6px;
+    width: 1315px;
+    position: fixed;
+    visibility: visible;
+}
+
+#menuItems {
+    color: #F06767;
+    margin-left: 16px;
+    text-align: right;
+}
+
+/*#navbar {
+    display: none;
+}*/
+
+
+  
+
+
+
+/*-----------------------------Introduction*/
+
 .band-name {
     font-size: 90px;
     top: 170px;
@@ -91,7 +75,7 @@
 }
 
 .guitarist-image {
-    background-image: url("../images/guitar.jpg");
+    background-image: url("/images/guitar.jpg");
     background-position: center;
     margin: 0px;
     top: -20px;
@@ -105,6 +89,7 @@
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
+
 
 .btn {
     background-color: red;
@@ -120,7 +105,7 @@
     letter-spacing: 1px;
     padding: 3px;
     position: relative;
-    left: 835.5px;
+    left: 1150px;
     top: 890px;
 }
 
@@ -147,29 +132,61 @@
     text-align: center;
 }
 
-/*------------------------------Social media links*/
+/*----------------------------------------------Horizontal Section Splitters*/
+
+.horizontal-break {
+    border-top-style: inset;
+    border-bottom-style: none;
+    border-color: black;
+    border-width: 5px;
+    margin: 30px 0px 30px 0px;
+}
+
+/*------------------------------News*/
 
 .facebook {
     position: relative;
-    left: 360px;
-    top: 17px;
+    left: 607px;
+    top: 40px;
 }
     
 .twitter {
     position: relative;
-    left: 760px;
-    
-  
-    
-   
-    
-    
+    left: 1255px;
+    top: -5px;
 }
 
-/*iframe:focus { 
-    outline: none;
+.twitter-feed {
+    position: relative;
+    left: 1120px;
+    top: -460px;
 }
 
-iframe[seamless] { 
-    display: block;
-}*/
+.facebook-feed {
+    position: relative;
+    left: 460px;
+    top: 40px;
+}
+
+
+
+
+/*-----------------------------Media queries*/
+
+@media screen and (max-width:960px) {
+    #menuItemHeader{
+        width: 100%
+    }
+}
+
+@media screen and (max-width:640) {
+    #menuItemHeader{
+        width: 60%
+    }
+}
+
+@media screen and (max-width:320) {
+    #menuItemHeader{
+        width: 100%
+    }
+}
