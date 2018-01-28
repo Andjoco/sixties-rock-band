@@ -29,15 +29,6 @@
     text-align: right;
 }
 
-/*#navbar {
-    display: none;
-}*/
-
-
-  
-
-
-
 /*-----------------------------Introduction*/
 
 .band-name {
@@ -118,7 +109,7 @@
     letter-spacing: 4px;
     position: relative;
     width: 700px;
-    left: 570.5px;
+    left: 601.5px;
 }
 
 .subheading {
@@ -140,6 +131,7 @@
     border-color: black;
     border-width: 5px;
     margin: 30px 0px 30px 0px;
+    position: relative;
 }
 
 /*------------------------------News*/
@@ -160,17 +152,148 @@
     position: relative;
     left: 1120px;
     top: -460px;
+    bottom: 40px;
 }
 
 .facebook-feed {
     position: relative;
     left: 460px;
     top: 40px;
+    bottom: 40px;
 }
 
+/*-------------------------------Watch*/
 
+.youtube-link {
+    position: relative;
+    left: 671.5px;
+    top: 40px;
+    margin-bottom: 100px;
+}
 
+/*------------------------------------Photos*/
 
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12, .img13, .img14, .img15, .img16 {
+    border-color: blue;
+    border-width: 5px;
+    border-style: solid;
+    background-position: center;
+    width: 310px;
+    height: 178.75px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 50px;
+}
+
+.img1 {
+    background-image: url("/images/img1.jpg");
+    margin-left: 132px;
+ 
+}
+
+.img2 {
+    background-image: url("/images/img2.jpg");
+    margin-left: 574px;
+    top: -228.75px;
+    
+} 
+
+.img3 {
+    background-image: url("/images/img3.jpg");
+    left: 1016px;
+    top: -457.5px;
+} 
+
+.img4 {
+    background-image: url("/images/img4.jpg");
+    left: 1458px;
+    top: -686.25px;
+} 
+
+.img5 {
+    background-image: url("/images/img5.jpg");
+    margin-left: 132px;
+    top: -686.25px;
+   
+} 
+
+.img6 {
+    background-image: url("/images/img6.jpg");
+    margin-left: 574px;
+    top: -915px;
+   
+} 
+
+.img7 {
+    background-image: url("/images/img7.jpg");
+    margin-left: 1016px;
+    top: -1143.75px;
+   
+}
+
+.img8 {
+    background-image: url("/images/img8.jpg");
+    margin-left: 1458px;
+    top: -1372.50px;
+    
+} 
+
+.img9 {
+    background-image: url("/images/img9.jpg");
+    margin-left: 132px;
+    top: -1372.50px;
+} 
+
+.img10 {
+    background-image: url("/images/img10.jpg");
+    margin-left: 574px;
+    top: -1601.25px;
+    
+   
+} 
+
+.img11 {
+    background-image: url("/images/img11.jpg");
+    margin-left: 1016px;
+    top: -1830px;
+}
+
+.img12 {
+    background-image: url("/images/img12.jpg");
+    margin-left: 1458px;
+    top: -2058.75px;
+}
+
+.img13 {
+    background-image: url("/images/img13.jpg");
+    margin-left: 132px;
+    top: -2058.75px;
+}
+
+.img14 {
+    background-image: url("/images/img14.jpg");
+    margin-left: 574px;
+    top: -2287.5px;
+    
+   
+}
+
+.img15 {
+    background-image: url("/images/img15.jpg");
+    margin-left: 1016px;
+    top: -2516.25px;
+    
+   
+}
+
+.img16 {
+    background-image: url("/images/img16.jpg");
+    margin-left: 1458px;
+    top: -2745px;
+    
+   
+}
+    
 /*-----------------------------Media queries*/
 
 @media screen and (max-width:960px) {
